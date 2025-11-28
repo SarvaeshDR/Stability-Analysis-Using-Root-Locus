@@ -19,9 +19,13 @@ Computer with MATLAB software
 
 ## Program:
 num=[1]
+
 den=[1 15 50 0]
+
 sys=tf(num,den)
+
 rlocus(sys)
+
 [k poles]=rlocfind(sys)
 
 ## Output:
