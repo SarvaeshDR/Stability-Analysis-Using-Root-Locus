@@ -5,8 +5,8 @@ To analyse the stability of the system having open loop transfer function, G(S)=
 Computer with MATLAB software
 
 ## Theory:
-<img width="381" height="742" alt="image" src="https://github.com/user-attachments/assets/398ded19-a78f-46b8-b8ea-2f2730d6b96d" />
-<img width="315" height="412" alt="image" src="https://github.com/user-attachments/assets/c7dd4151-66b3-4a0a-b573-f1f5ff834b19" />
+
+
 
 
 ## Procedure:
@@ -17,7 +17,8 @@ Computer with MATLAB software
 	Click on the crossing point of the root locus to find the value of K and poles at the crossing point.
 	From the value of K, analyse the stability.
 
-## Program:
+## Program: 
+```
 num=[1]
 
 den=[1 15 50 0]
@@ -28,9 +29,12 @@ rlocus(sys)
 
 [k poles]=rlocfind(sys)
 
+```
+
+
 ## Output:
-<img width="695" height="528" alt="Screenshot 2025-11-17 114112" src="https://github.com/user-attachments/assets/17b18090-b0e9-4063-8d59-15407c4779a0" />
+<img width="702" height="629" alt="image" src="https://github.com/user-attachments/assets/55096823-c15c-4b5a-be8f-cc2d7afc9e88" />
 
 
 ## Result:
-Thus the root locus for the given transfer function was drawn and verified using MATLAB. The conditions for stability is ------------
+Thus the root locus for the given transfer function was drawn and verified using MATLAB. The conditions for stability is 460.6838
